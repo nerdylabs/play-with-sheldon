@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Redressed';
+    color: #f4f4f4;
+    background-color: #333;
+}
+
+.container{
+    display: flex;
+    margin-top: 50px;
+    /* margin-left: ; */
+}
+
+.box{
+    margin: 25px;
+}
+
+.container img{
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.top-container{
+    display: flex;
+    /* padding: 50px; */
+}
+
+.bottom-container{
+    display: flex;
+    margin-left: 130px;
+}
+
+.box h1, p{
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.vl {
+    border-left: 6px solid #f4f4f4;
+    height: 90vh;
+}
+
+.container .btn:hover{
+    box-shadow: 5px 5px 5px 5px #005a96;
+}
+
+.shle{
+    box-shadow: 5px 5px 5px 5px #005a96;
+}
